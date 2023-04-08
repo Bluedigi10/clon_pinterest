@@ -1,0 +1,1314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" media="screen" href="estilo.css">
+    <link rel="shortcut icon" href="imgs/Pinterest-logo.png" type="image/x-icon">
+    <title>Clon de Pinterest</title>
+</head>
+<body>
+    <nav id="navbar-pinterest">
+        <div class="logo">
+            <a class="enlace" href="https://www.pinterest.com">
+                <img id="pinterest-icon" src="imgs/Pinterest-logo.png" alt="logo">
+            </a>
+        </div>
+        <div class="fondo">
+            <div class="texto">
+                Inicio
+            </div>
+        </div>
+        <div class="texto1">Hoy</div>
+        <div class="texto1">
+            Crear
+            <svg class="menu" height="12" width="12" viewBox="0 0 24 24" aria-hidden="true" aria-label="" role="img"><path d="M12 19.5.66 8.29c-.88-.86-.88-2.27 0-3.14.88-.87 2.3-.87 3.18 0L12 13.21l8.16-8.06c.88-.87 2.3-.87 3.18 0 .88.87.88 2.28 0 3.14L12 19.5z"></path></svg>
+        </div>
+        <div class="busqueda">
+            <div class="barra">
+                <div class="box">
+                    <svg height="16" width="16" viewBox="0 0 24 24" aria-label="Icono de búsqueda" role="img"><path d="M10 16c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6m13.12 2.88-4.26-4.26A9.842 9.842 0 0 0 20 10c0-5.52-4.48-10-10-10S0 4.48 0 10s4.48 10 10 10c1.67 0 3.24-.41 4.62-1.14l4.26 4.26a3 3 0 0 0 4.24 0 3 3 0 0 0 0-4.24"></path></svg>
+                </div>
+                <input class="finder" type="text" placeholder="Buscar">
+            </div>
+        </div>
+        <div class="opciones">
+            <div id="notifications">
+                <svg height="24" width="24" viewBox="0 0 24 24" aria-hidden="true" aria-label="" role="img"><path d="M12 24c-1.66 0-3-1.34-3-3h6c0 1.66-1.34 3-3 3zm7-10.83c1.58 1.52 2.67 3.55 3 5.83H2c.33-2.28 1.42-4.31 3-5.83V7c0-3.87 3.13-7 7-7s7 3.13 7 7v6.17z"></path></svg>
+            </div>
+            <div id="message">
+                <svg height="24" width="24" viewBox="0 0 24 24" aria-hidden="true" aria-label="" role="img"><path d="M18 12.5a1.5 1.5 0 1 1 .001-3.001A1.5 1.5 0 0 1 18 12.5m-6 0a1.5 1.5 0 1 1 .001-3.001A1.5 1.5 0 0 1 12 12.5m-6 0a1.5 1.5 0 1 1 .001-3.001A1.5 1.5 0 0 1 6 12.5M12 0C5.925 0 1 4.925 1 11c0 2.653.94 5.086 2.504 6.986L2 24l5.336-3.049A10.93 10.93 0 0 0 12 22c6.075 0 11-4.925 11-11S18.075 0 12 0"></path></svg>
+            </div>
+            <div id="profile-img">
+                <img id="profile-pic" alt="Emmanuel Martinez" fetchpriority="auto" loading="auto" src="https://i.pinimg.com/75x75_RS/b6/a2/62/b6a262cc0a2b94c442a03e49bc3d1290.jpg">
+            </div>
+            <div class="menu">
+                <svg height="12" width="12" viewBox="0 0 24 24" aria-hidden="true" aria-label="" role="img"><path d="M12 19.5.66 8.29c-.88-.86-.88-2.27 0-3.14.88-.87 2.3-.87 3.18 0L12 13.21l8.16-8.06c.88-.87 2.3-.87 3.18 0 .88.87.88 2.28 0 3.14L12 19.5z"></path></svg>
+            </div>
+        </div>
+    </nav>
+    <main id="content">
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img2.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img1.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img3.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img4.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img5.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img6.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img7.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img8.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img9.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img10.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img11.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img12.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img13.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img14.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img15.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img16.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img17.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img18.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img19.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img20.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img21.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img22.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img23.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img24.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img25.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img26.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img27.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img28.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img29.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img30.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img2.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img1.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img3.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img4.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img5.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img6.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img7.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img8.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img9.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img10.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img11.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img12.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img13.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img14.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img15.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img16.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img17.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img18.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img19.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img20.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img21.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img22.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img23.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img24.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img25.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img26.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img27.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img28.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img29.jpg" alt="Esto contiene una imagen">
+        </div>
+        <div class="card-image">
+            <div class="invisible">
+                <div class="botonesUp">
+                    <div class="perfil">
+                        <div class="texto">Perfil</div>
+                    </div>
+                    <div class="guardar">
+                        <div class="texto">Guardar</div>
+                    </div>
+                </div>
+                <div class="botonesDown">
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/share-icon.png" alt="compartir">
+                    </div>
+                    <div class="opcion">
+                        <img class="imgopcion" src="imgs/menu-icon.png" alt="compartir">
+                    </div>
+                </div>
+            </div>
+            <img class="pin" src="imgs/img30.jpg" alt="Esto contiene una imagen">
+        </div>
+    </main>
+</body>
+</html>

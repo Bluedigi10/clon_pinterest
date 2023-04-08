@@ -1,0 +1,266 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0px;
+}
+input{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    color: #757373;
+}
+.logo:hover{
+    background-color: #efefef;
+    border-radius: 50%;
+}
+#navbar-pinterest{
+    top: 0;
+    position: fixed;
+    background-color: #fff;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    width: 100%;
+    padding: 16px;
+    z-index: 2;
+}
+.opciones{
+    display: flex;
+    box-sizing: border-box;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#notifications{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+    cursor: pointer;
+}
+#message{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+    cursor: pointer;
+}
+#profile-img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+    cursor: pointer;
+}
+#profile-pic{
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.logo{
+    height: 48px;
+    width: 48px;
+    cursor: pointer;
+}
+.texto, .texto1{
+    padding: 0px 16px;
+    cursor: pointer;
+}
+.menu{
+    margin-left: 4px;
+    cursor: pointer;
+}
+.fondo{
+    display: flex;
+    background-color: black;
+    color: white;
+    border-radius: 24px;
+    height: 48px;
+    align-items: center;
+}
+#pinterest-icon{
+    padding: 12px;
+    height: 24px;
+    width: 24px;
+}
+.busqueda{
+    width: 75%;
+    height: 48px;
+    padding: 0px 8px;
+    box-sizing: border-box;
+}
+.barra{
+    background-color: #efefef;
+    border-radius: 24px;
+    padding-left: 16px;
+}
+.finder{
+    background-color: #efefef;
+    height: 48px;
+    width: 60%;
+    border: transparent;
+    outline: none;
+}
+.box{
+    display: inline-block;
+    margin-right: 8px;
+}
+#content{
+    margin-top: 80px;
+    padding-left: 67px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    /*columns: 0px 7;
+    column-gap: 0px;*/
+}
+.card-image{
+    box-sizing: border-box;
+    padding: 0px 8px;
+    padding-bottom: 16px;
+    position: relative;
+    display: flex;
+}
+.pin{
+    width: 236px;
+    min-height: 236px;
+    max-height: 435px;
+    border-radius: 16px;
+}
+.invisible{
+    position: absolute;
+    box-sizing: border-box;
+    width: 236px;
+    height: 94%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+    opacity: 0;
+    background-color: rgba(000, 000, 0, 0.4);
+    border-radius: 16px;
+    cursor: zoom-in;
+}
+.botonesUp{
+    color: #fff;
+    z-index: 2;
+    border-radius: 20px;
+    padding: 8px 0px;
+    margin: 8px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.botonesDown{
+    color: #fff;
+    z-index: 2;
+    border-radius: 20px;
+    padding: 8px 0px;
+    margin: 4px 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.perfil, .guardar{
+    height: 48px;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+}
+.guardar{
+    background-color: red;
+}
+.guardar:hover{
+    background-color: rgb(185, 2, 2);
+}
+.invisible:hover{
+    opacity: 1;
+}
+.opcion{
+    background-color: #ffffffbd;
+    border-radius: 50%;
+    padding: 8px;
+    margin: 4px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.imgopcion{
+    width: 18px;
+    height: 18px;
+}
+.opcion:hover{
+    background-color: #ffffffe1;
+}
+@media screen and (max-width:1800px){
+    .busqueda{
+        width: 73%;
+        height: 48px;
+        padding: 0px 8px;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width:1600px){
+    .busqueda{
+        width: 70%;
+        height: 48px;
+        padding: 0px 8px;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width:1400px){
+    .busqueda{
+        width: 63%;
+    }
+    #content{
+        padding-left: 5px;
+    }
+}
+@media screen and (max-width:1200px){
+    .busqueda{
+        width: 58%;
+    }
+    #content{
+        padding-left: 40px;
+    }
+}
+@media screen and (max-width:1000px){
+    .busqueda{
+        width: 52%;
+    }
+    #content{
+        padding-left: 100px;
+    }
+}
+@media screen and (max-width:800px){
+    .busqueda{
+        width: 60%;
+    }
+    .finder{
+        width: 60%;
+    }
+    .fondo{
+        background-color: #fff;
+        color: black;
+    }
+    .texto1{
+        padding: 0px;
+        visibility: hidden;
+        position: fixed
+    }
+    #content{
+        padding: 0px;
+    }
+}

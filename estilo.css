@@ -126,11 +126,11 @@ input{
     column-gap: 0px;*/
 }
 .card-image{
-    box-sizing: border-box;
     padding: 0px 8px;
     padding-bottom: 16px;
-    position: relative;
     display: flex;
+    position: relative;
+    flex: 0 1 auto;
 }
 .pin{
     width: 236px;
@@ -140,14 +140,12 @@ input{
 }
 .invisible{
     position: absolute;
-    box-sizing: border-box;
     width: 236px;
-    height: 94%;
+    height: 93%;
     z-index: 1;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-self: center;
     opacity: 0;
     background-color: rgba(000, 000, 0, 0.4);
     border-radius: 16px;
@@ -164,7 +162,6 @@ input{
     justify-content: space-around;
 }
 .botonesDown{
-    color: #fff;
     z-index: 2;
     border-radius: 20px;
     padding: 8px 0px;
